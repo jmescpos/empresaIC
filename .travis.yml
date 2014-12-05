@@ -1,0 +1,28 @@
+#Lenguaje usado
+language: python
+python:
+    - "2.7"
+#Instalar dependencias
+install:
+    - pip install pytest pytest-cov
+    - pip install mockito
+    - pip install coveralls
+    - pip install pep8
+    - pip install radon
+script:
+    - py.test --cov . --cov-report term-missing
+    - radon cc src/.
+    - radon mi src/.
+    - radon raw src/.
+    - radon cc test/.
+    - radon mi test/.
+    - radon raw test/.
+    - pep8 src/.
+    - pep8 test/.
+after_success:
+    - coveralls
+notifications:
+    email:
+        recipients:
+            - juanma_yugo89@hotmail.com
+        on_failure: always
