@@ -1,0 +1,2 @@
+[![Build Status](https://travis-ci.org/jmescpos/empresaIC.svg?branch=master)](https://travis-ci.org/jmescpos/empresaIC)
+[![Coverage Status](https://coveralls.io/repos/jmescpos/empresaIC/badge.png)](https://coveralls.io/r/jmescpos/empresaIC)
