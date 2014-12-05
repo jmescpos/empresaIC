@@ -15,7 +15,8 @@ class TestDepartamento(TestCase):
     """Clase de testeo para la clase departamento"""
 
     def test_get_salario_total_mensual(self):
-        """Metodo que comprueba si el salario total de los empleados funciona correctamente.
+        """Metodo que comprueba si el salario total de los
+        empleados funciona correctamente.
 
         :return self.assertEquals: Comprueba resultado del salario.
         """
