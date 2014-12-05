@@ -28,8 +28,9 @@ class Empleado():
         """Metodo get del atributo salario.
 
         :return salario: Devuelve salario.
-        :rtype salario: Float.
+        :rtype salario: Float
         """
+
         return self.salario
 
     def get_dni(self):
