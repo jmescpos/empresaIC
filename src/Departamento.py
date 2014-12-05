@@ -39,7 +39,6 @@ class Departamento():
 
         :return cantidad: Devuelve la suma de los salarios.
         :rtype cantidad: Float.
-
         """
         cantidad = 0.0
         for empleado in self.listaEmpleados:
