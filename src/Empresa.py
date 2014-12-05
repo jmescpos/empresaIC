@@ -1,5 +1,6 @@
 __author__ = 'Juanma'
 
+
 class Empresa():
     """Clase empleado de una empresa"""
     def __init__(self, nombre_empresa, cif, razon_social):

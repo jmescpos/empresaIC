@@ -1,9 +1,11 @@
 __author__ = 'Juanma'
 
+
 class Empleado():
     """Clase empleado de una empresa"""
 
-    def __init__(self, nombre, apellidos, dni, direccion, edad, email, salario):
+    def __init__(self, nombre, apellidos, dni, direccion,
+                 edad, email, salario):
         """Constructor clase empleado
 
         :param nombre: Nombre del empleado.
@@ -43,6 +45,7 @@ class Empleado():
         :return nombre_apellido: Devuelve nombre y el apellido.
         :rtype nombre_apellidos: String."""
         return self.nombre + ' ' + self.apellido
+
     def get_edad(self):
         """Metodo get del atributo edad.
 

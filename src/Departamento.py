@@ -1,5 +1,6 @@
 __author__ = 'Juanma'
 
+
 class Departamento():
     """Esta clase representa a un departamento"""
 
@@ -17,7 +18,7 @@ class Departamento():
         self.d_depto = d_depto
         self.listaEmpleados = []
 
-    def aniadir_empleado(self,empleado):
+    def aniadir_empleado(self, empleado):
         """Metodo para introducir empleados al departamento
 
         Se encarga de introducir un objeto de tipo
